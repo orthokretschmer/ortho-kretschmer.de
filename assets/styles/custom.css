@@ -1,0 +1,127 @@
+/* outfit-300 - latin */
+@font-face {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/outfit-v6-latin-300.eot'); /* IE9 Compat Modes */
+    src: local(''),
+    url('../fonts/outfit-v6-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/outfit-v6-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/outfit-v6-latin-300.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/outfit-v6-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/outfit-v6-latin-300.svg#Outfit') format('svg'); /* Legacy iOS */
+}
+/* outfit-regular - latin */
+@font-face {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/outfit-v6-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+    url('../fonts/outfit-v6-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/outfit-v6-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/outfit-v6-latin-regular.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/outfit-v6-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/outfit-v6-latin-regular.svg#Outfit') format('svg'); /* Legacy iOS */
+}
+/* outfit-500 - latin */
+@font-face {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/outfit-v6-latin-500.eot'); /* IE9 Compat Modes */
+    src: local(''),
+    url('../fonts/outfit-v6-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/outfit-v6-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/outfit-v6-latin-500.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/outfit-v6-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/outfit-v6-latin-500.svg#Outfit') format('svg'); /* Legacy iOS */
+}
+/* outfit-700 - latin */
+@font-face {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/outfit-v6-latin-700.eot'); /* IE9 Compat Modes */
+    src: local(''),
+    url('../fonts/outfit-v6-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/outfit-v6-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/outfit-v6-latin-700.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/outfit-v6-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/outfit-v6-latin-700.svg#Outfit') format('svg'); /* Legacy iOS */
+}
+/* outfit-600 - latin */
+@font-face {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/outfit-v6-latin-600.eot'); /* IE9 Compat Modes */
+    src: local(''),
+    url('../fonts/outfit-v6-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/outfit-v6-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/outfit-v6-latin-600.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/outfit-v6-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/outfit-v6-latin-600.svg#Outfit') format('svg'); /* Legacy iOS */
+}
+
+html,
+body {
+    height: 100%;
+    font-family: 'Outfit', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #4f535d;
+}
+
+a {
+    color: #4f535d;
+    line-height: 150%;
+    text-decoration: none;
+}
+
+a:active,
+a:focus,
+a:hover {
+    color: #4f535d;
+}
+
+h2 {
+    margin-top: 3rem;
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 300;
+    border-bottom: 1px solid #5f666f;
+}
+
+h3 {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+h4 {
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.box-1 {
+    background-color: #adb6c0;
+}
+
+@media (max-width: 767.98px) {
+    .text-nowrap {
+        white-space: normal !important;
+    }
+
+    .fs-4 {
+        font-size: 1.25rem !important;
+    }
+
+    .fs-5 {
+        font-size: 1.125rem !important;
+    }
+}
