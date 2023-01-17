@@ -100,10 +100,10 @@ table tr td {
 }
 
 hr {
-    display: block;
     height: 1px;
+    background-color: #4f535d;
     border: none;
-    color: #4f535d;
+    opacity: 1;
 }
 
 .border-top {
