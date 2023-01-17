@@ -1,0 +1,7 @@
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} !^www.ortho-kretschmer.de$ [NC]
+RewriteRule ^(.*)$ https://www.ortho-kretschmer.de/$1 [L,R=301]
+
+RewriteCond %{SERVER_PORT} !=443
+RewriteRule ^(.*)$ https://www.ortho-kretschmer.de/$1 [R=301,L]

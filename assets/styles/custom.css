@@ -85,6 +85,39 @@ a:hover {
     color: #4f535d;
 }
 
+a.imprint {
+    font-size: 14px;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #4f535d;
+}
+
+b, strong {
+    font-weight: 500;
+}
+
+table tr td {
+    line-height: 200%;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: none;
+    color: #4f535d;
+}
+
+.border-top {
+    border-top: 1px solid #4f535d !important;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #4f535d !important;
+}
+
+.letter-spacing-1 {
+    letter-spacing: 1px;
+}
+
 h2 {
     margin-top: 3rem;
     padding-bottom: 1rem;
@@ -110,6 +143,17 @@ h4 {
 
 .box-1 {
     background-color: #adb6c0;
+}
+
+@media (min-width: 768px) {
+    .logo {
+        height: 180px;
+    }
+
+    .box-1.p-lg-5 {
+        padding-left: 6rem !important;
+        padding-right: 6rem !important;
+    }
 }
 
 @media (max-width: 767.98px) {
