@@ -32,46 +32,805 @@
     <meta name="theme-color" content="#ffffff">
 </head>
 <body data-bs-spy="scroll" data-bs-offset="0" data-bs-target=".navbar-collapse" tabindex="0">
-<div class="d-lg-flex flex-lg-row-reverse h-100">
-    <div class="d-flex flex-column px-3 py-5 p-lg-5 fs-5 box-1">
-        <a href="/" class="d-block text-center"><img src="assets/images/logo-white.svg" height="120" alt="Logo" class="logo mb-5"></a>
-        <div class="d-flex flex-column flex-grow-1 justify-content-center">
-            <p class="mb-4"><strong>Sehr geehrte Patientinnen und Patienten,</strong></p>
-            <p class="mb-4">
-                zum 01.01.2023 habe ich die Praxis von Herrn Dipl.-Med. Klaus-Peter Kaiser übernommen. Ich freue mich, in Zukunft Ihre orthopädische Versorgung gemeinsam mit meinem Team zu gewährleisten.<br>
-                Für Terminvereinbarungen und Nachfragen kontaktieren Sie uns bitte per Telefon oder E-Mail. Unsere neue Webpräsenz wird in Kürze ausführlicher zur Verfügung stehen.
-            </p>
-            <p>Dr. med. Andrea Kretschmer &amp; Team</p>
-        </div>
-        <p class="d-none d-lg-block mb-lg-0 fs-6 text-center"><a href="impressum.html" class="imprint text-uppercase">Impressum | Datenschutz</a></p>
-     </div>
-    <div class="d-flex flex-column align-items-stretch align-content-stretch px-3 py-5 p-lg-5 text-nowrap box-2">
-        <div class="flex-grow-1 flex-nowrap mt-3 mt-lg-0 mb-5 fs-5">
-            <table class="w-100">
-                <tbody>
-                    <tr class="border-top"><td class="pe-3"><strong>M</strong></td><td>8 - 12 | 13 - 16</td></tr>
-                    <tr class="border-top"><td class="pe-3"><strong>D</strong></td><td>8 - 12 | 13 - 18</td></tr>
-                    <tr class="border-top"><td class="pe-3"><strong>M</strong></td><td>8 - 12</td></tr>
-                    <tr class="border-top"><td class="pe-3"><strong>D</strong></td><td>ambulante Operation/PRT</td></tr>
-                    <tr class="border-top border-bottom"><td class="pe-3"><strong>F</strong></td><td>8 - 12</td></tr>
-                </tbody>
-            </table>
-        </div>
-        <div class="d-flex flex-column flex-nowrap fs-5">
-            <img src="assets/images/icon-kontakt.svg" width="60" height="60" alt="Kontakt" class="mb-3 align-self-center align-self-lg-start">
-            <p class="mb-2">
-                <span class="text-uppercase letter-spacing-1"><strong>Dr. med. Andrea Kretschmer</strong></span><br>
-                Orthopädie &amp; Unfallchirurgie
-            </p>
-            <hr class="m-0 p-0">
-            <p class="mt-2 mb-lg-0">
-                Jakobsstraße 5-6, 06618 Naumburg (Saale)<br>
-                <strong>T</strong> 03445 200068 | <strong>F</strong> 03445 200070<br>
-                <a href="mailto:praxis@ortho-kretschmer.de">praxis@ortho-kretschmer.de</a>
-            </p>
-            <p class="d-block d-lg-none mt-5 fs-6 text-center"><a href="impressum.html" class="imprint text-uppercase">Impressum | Datenschutz</a></p>
+
+<nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-white">
+    <div class="container">
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+            <label for="hamburger">
+                <span class="d-none">Menü</span>
+                <span class="d-none">Schließen</span>
+            </label>
+            <input type="checkbox" id="hamburger" />
+            <label for="hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </label>
+        </button>
+        <div id="navbar-collapse" class="collapse navbar-collapse">
+            <div class="navbar-nav navbar-nav-scroll">
+                <a class="nav-link d-flex align-self-center" href="#top">Home</a>
+                <a class="nav-link d-flex align-self-center" href="#diagnostik">Diagnostik</a>
+                <a class="nav-link d-flex align-self-center" href="#therapien">Therapien</a>
+                <a class="nav-link d-flex align-self-center" href="#team">Team</a>
+                <a class="nav-link d-flex align-self-center" href="#praxis">Praxis</a>
+                <a class="nav-link d-flex align-self-center" href="#kontakt">Kontakt</a>
+            </div>
+            <div class="d-lg-none d-flex w-100 p-4 bg-white">
+                <a class="btn btn-primary btn-sm w-50 me-2 " href="tel:+493445200068">Anrufen</a>
+                <a class="btn btn-primary btn-sm w-50 ms-2" href="mailto:praxis@ortho-kretschmer.de">E-Mail</a>
+            </div>
         </div>
     </div>
-</div>
+</nav>
+
+<article>
+    <section id="header">
+        <div class="container d-block d-lg-none mw-100 gx-0">
+            <div class="row">
+                <div class="col-12">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 d-flex align-items-center justify-content-center">
+                                <img src="assets/images/ak_logo.png" class="p-5 w-75" alt="Logo">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mw-100 gx-0">
+            <div class="row">
+                <div class="col-12">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-lg-6 col-xl-5 pt-2 pt-lg-0 px-lg-5 bg-white">
+                                <img src="assets/images/ak_logo.svg" class="d-none d-lg-block" height="90" alt="Logo">
+                                <table class="w-100 mt-5 mb-3">
+                                    <tbody>
+                                    <tr>
+                                        <td><strong>M</strong></td>
+                                        <td>8 – 12 | 13 – 16</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>D</strong></td>
+                                        <td>8 – 12 | 13 – 18</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>M</strong></td>
+                                        <td>8 – 12</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>D</strong></td>
+                                        <td>ambulante Operation / PRT</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>F</strong></td>
+                                        <td>8 – 12</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                                <p class="mt-4 mb-5">Für Terminvereinbarungen und Nachfragen kontaktieren Sie uns bitte per Telefon oder per E-Mail. Rezepte und Überweisungen können Sie telefonisch oder auch digital vorbestellen und zur Öffnungszeit abholen. Die Unterschrift erfolgt am Abholtag durch Frau Dr. Kretschmer, so dass die Möglichkeit eines Arztkontaktes besteht. Bitte beachten Sie dazu die Öffnungszeiten und den Operationstag, wo entsprechend kein Personal in der Praxis ist.</p>
+                                <div class="d-flex">
+                                    <a class="btn btn-primary w-50 me-2" href="tel:+493445200068">Anrufen</a>
+                                    <a class="btn btn-primary w-50 ms-2" href="mailto:praxis@ortho-kretschmer.de">E-Mail</a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6 col-xl-7 d-none d-lg-flex align-items-center justify-content-center">
+                                <img src="assets/images/ak_logo.png" class="p-5 object-fit-fill" width="500" height="500" alt="Logo">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             </div>
+        </div>
+    </section>
+    <section id="welcome">
+        <div class="container">
+            <div class="row my-5">
+                <div class="col-12 mt-lg-5 col-lg-6">
+                    <h2>Hallo</h2>
+                    <h3>Herzlich willkommen<br>in der Praxis von<br>Dr. Andrea Kretschmer</h3>
+                </div>
+                <div class="col-12 mt-5 col-lg-6">
+                    <p>Liebe Patientin, lieber Patient!</p>
+                    <p>Gemeinsam mit meinem Team freue ich mich, Sie in allen Fragen der Orthopädie und Unfallchirurgie professionell und kompetent zu beraten. Dank modernster und ausführlicher Diagnostik erstellen wir eine möglichst individuelle Therapie für Sie. Dabei stehen wir mit einem umfassenden Spektrum an konservativen und operativen Leistungen von Schultererkrankung über Knie bis zur Wirbelsäule zur Verfügung. Neben Arthroskopien der Gelenke werden auch Bandscheibenvorfälle minimalinvasiv per Nukleoplastie durch uns behandelt.</p>
+                    <p>Als vertrauensvoller Partner betreuen wir Sie von der Diagnose über die Therapie bis hin zur Nachsorge. Ihre Gesundheit und Genesung ist uns dabei ein wichtiges Anliegen. Wir freuen uns auf Sie.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="news">
+        <div class="container mw-100 gx-0 bg-gray">
+            <div class="row pt-3 pt-lg-5 pb-2 pb-lg-4">
+                <div class="col-12">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-lg-6 mt-5">
+                                <div class="card mb-5 rounded-0 border-0 bg-white icon icon-covid">
+                                    <div class="card-body">
+                                        <p class="mt-5 text-center"><h4 class="text-uppercase text-center">Bitte beachten sie:</h4></p>
+                                        <div class="collapse" id="news-covid">
+                                            <ul class="list-bullet">
+                                                <li class="mb-3">Bei potenziell ansteckenden Erkrankungen bitten wir Sie im Interesse des Teams und anderer Patienten, zu Hause zu bleiben oder in dringenden Fällen einen Mund-Nasenschutz zu tragen.</li>
+                                                <li> Sollten Krankheitssymptome vor operativen Eingriffen auftreten, bitten wir Sie uns rechtzeitig zu informieren. Gemeinsam finden wir einen Ausweichtermin.</li>
+                                            </ul>
+                                        </div>
+                                        <p class="text-center mb-0"><a data-bs-toggle="collapse" href="#news-covid" class="text-decoration-none collapsed" role="button" aria-expanded="false" aria-controls="news-covid"></a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6 mt-3 mt-lg-5">
+                                <div class="card mb-5 rounded-0 border-0 bg-white icon icon-pin">
+                                    <div class="card-body">
+                                        <p class="mt-5"><h4 class="text-uppercase text-center">Urlaubszeiten:</h4></p>
+                                        <div class="collapse" id="news-pin">
+                                            <ul class="list-bullet">
+                                                <li class="mb-3">
+                                                    Die orthopädische Praxis bleibt wegen Urlaubs an folgenden Tagen durch Frau Dr. Kretschmer nicht besetzt:<br>
+                                                    19.-26.05.<br>
+                                                    24.07.-05.08.<br>
+                                                    23.-30.10.<br>
+                                                    22./23.12.<br>
+                                                </li>
+                                                <li>
+                                                    Die Praxisgemeinschaft ist an folgenden Tagen komplett geschlossen: 24.7.-28.7.2023
+                                                </li>
+                                             </ul>
+                                        </div>
+                                        <p class="text-center mb-0"><a data-bs-toggle="collapse" href="#news-pin" class="text-decoration-none collapsed" role="button" aria-expanded="false" aria-controls="news-pin"></a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+    </section>
+    <section id="diagnostik" class="pt-0 pt-lg-5">
+        <div class="container mt-5 mb-5">
+            <div class="row">
+                <div class="col">
+                    <h2>Diagnostik</h2>
+                    <h3>Untersuchung<br>von Kopf bis Fuß</h3>
+                </div>
+            </div>
+        </div>
+        <div class="container mw-100 gx-0 bg-dark-gray">
+            <div class="row">
+                <div class="col-12">
+                    <div class="container py-4">
+                        <div class="row d-none d-md-flex">
+                            <div class="col-2 text-center"><img src="assets/images/diagnostik_wirbelsaeule.png" class="w-100 h-auto" style="max-width: 150px;" width="150" height="150" alt="Wirbelsäule"></div>
+                            <div class="col-2 text-center"><img src="assets/images/diagnostik_schulter.png" class="w-100 h-auto" style="max-width: 150px;" width="150" height="150" alt="Schulter"></div>
+                            <div class="col-2 text-center"><img src="assets/images/diagnostik_hand.png" class="w-100 h-auto" style="max-width: 150px;" width="150" height="150" alt="Hand"></div>
+                            <div class="col-2 text-center"><img src="assets/images/diagnostik_becken.png" class="w-100 h-auto" style="max-width: 150px;" width="150" height="150" alt="Becken"></div>
+                            <div class="col-2 text-center"><img src="assets/images/diagnostik_knie.png" class="w-100 h-auto" style="max-width: 150px;" width="150" height="150" alt="Knie"></div>
+                            <div class="col-2 text-center"><img src="assets/images/diagnostik_fuss.png" class="w-100 h-auto" style="max-width: 150px;" width="150" height="150" alt="Fuss"></div>
+                        </div>
+                        <div class="row d-flex d-md-none">
+                            <div class="col-12">
+                                <div id="carousel-diagnostik" class="carousel slide d-flex d-lg-none" data-bs-ride="carousel">
+                                    <div class="carousel-indicators d-none">
+                                        <button type="button" data-bs-target="#carousel-diagnostik" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#carousel-diagnostik" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#carousel-diagnostik" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                        <button type="button" data-bs-target="#carousel-diagnostik" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                        <button type="button" data-bs-target="#carousel-diagnostik" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                        <button type="button" data-bs-target="#carousel-diagnostik" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                                    </div>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active text-center">
+                                            <img src="assets/images/diagnostik_wirbelsaeule.png" width="120" height="120" alt="Wirbelsäule">
+                                        </div>
+                                        <div class="carousel-item text-center">
+                                            <img src="assets/images/diagnostik_schulter.png" width="120" height="120" alt="Schulter">
+                                        </div>
+                                        <div class="carousel-item text-center">
+                                            <img src="assets/images/diagnostik_hand.png" width="120" height="120" alt="Hand">
+                                        </div>
+                                        <div class="carousel-item text-center">
+                                            <img src="assets/images/diagnostik_becken.png" width="120" height="120" alt="Becken">
+                                        </div>
+                                        <div class="carousel-item text-center">
+                                            <img src="assets/images/diagnostik_knie.png" width="120" height="120" alt="Knie">
+                                        </div>
+                                        <div class="carousel-item text-center">
+                                            <img src="assets/images/diagnostik_fuss.png" width="120" height="120" alt="Fuss">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mw-100 gx-0 bg-gray">
+            <div class="row">
+                <div class="col-12">
+                    <div class="container my-0 my-lg-4 pt-4 pt-lg-5 pb-5">
+                        <div class="row">
+                            <div class="col-12 col-lg-5">
+                                <img src="assets/images/ak_diagnostik.jpg" class="w-100" alt="Diagnostik">
+                            </div>
+                            <div class="col-12 col-lg-7">
+                                <p class="mt-4 mt-lg-0 mb-4">Am Anfang steht eine ausführliche Untersuchung und genaue Analyse der Problematik an. Dazu gehört neben einem persönlichen Gespräch, die körperliche Untersuchung und das Einsetzen von bildgebender Diagnostik. Gemeinsam nehmen wir uns die Zeit, um für Sie einen individuellen Behandlungsplan zu erstellen und umzusetzen.</p>
+                                <div id="accordion" class="accordion accordion-flush">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header my-0" id="headingOne">
+                                            <button class="accordion-button py-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                                Sonographie
+                                            </button>
+                                        </h2>
+                                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordion">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">Es handelt sich dabei um eine Ultraschalluntersuchung der Gelenke und Muskulatur mittels modernster Technik. Die Bildgebung wird sofort in der digitalen Patientenakte gespeichert und ist im Verlauf  zum Vergleich immer wieder abrufbar.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header my-0" id="headingTwo">
+                                            <button class="accordion-button py-0 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                Radiologie
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordion">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">Durch den Erwerb eines neuen modernen digitalen Röntgengerätes, sind wir in der Lage vor Ort sofortige Röntgenuntersuchungen zu veranlassen und durchzuführen.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header my-0" id="headingThree">
+                                            <button class="accordion-button py-0 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                Knochendichtemessung
+                                            </button>
+                                        </h2>
+                                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordion">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">In den Räumen unserer Praxisgemeinschaft befindet sich ein Knochendichtemessgerät, sodass wir in der Lage sind in Kombination mit Labor und Bildgebung eine zuverlässige Osteoporosediagnostik durchzuführen.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="therapien" class="pt-5">
+        <div class="container mb-5">
+            <div class="row">
+                <div class="col">
+                    <h2>Therapien</h2>
+                    <h3>Bei uns sind Sie<br>in kompetenten Händen</h3>
+                </div>
+            </div>
+        </div>
+        <div class="container d-none d-lg-block mw-100 gx-0 bg-dark-gray">
+            <div class="row">
+                <div class="col-12">
+                    <div class="container">
+                        <div class="row" role="tablist">
+                            <div class="col-lg-6 text-center">
+                                <a href="#therapien-konservativ-tab-pane" class="d-block py-4 active" data-bs-toggle="tab" role="tab" aria-controls="therapien-konservativ-tab-pane" aria-selected="true">Konservative Therapien</a>
+                            </div>
+                            <div class="col-lg-6 text-center">
+                                <a href="#therapien-operativ-tab-pane" class="d-block py-4" data-bs-toggle="tab" role="tab" aria-controls="therapien-operativ-tab-pane" aria-selected="false">Operative Therapien</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-content" id="therapien-tab">
+            <div class="tab-pane fade show active" id="therapien-konservativ-tab-pane" role="tabpanel" aria-labelledby="therapien-konservativ-tab" tabindex="0">
+                <div class="container d-lg-none mw-100 gx-0 bg-dark-gray">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12 text-center">
+                                        <a href="#therapien-konservativ-tab-pane" class="d-block py-4 active" data-bs-toggle="tab" role="tab" aria-controls="therapien-konservativ-tab-pane" aria-selected="true">Konservative Therapien</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container mw-100 gx-0 pb-5 bg-gray">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="container pt-5">
+                                <div class="row">
+                                    <div class="col-12 col-lg-8 offset-lg-2 mt-0 mt-lg-4 mb-4 mb-lg-5">
+                                        <p class="mb-4">Sehr viele orthopädische Erkrankungen lassen sich konservativ behandeln. Ob für akute oder chronische Schmerzen, ergänzend zu anderen Behandlungen oder als eigenständige Therapie: die konservative Schmerztherapie bietet eine große Bandbreite an Verfahren an. In unserer Praxisgemeinschaft kommen folgende Möglichkeiten zum Einsatz.</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6 mb-4">
+                                        <div class="card h-100 rounded-0 border-0 bg-white">
+                                            <img src="assets/images/therapien_stosswellen.jpg" class="w-100" alt="Stoßwellen">
+                                            <div class="card-body p-4">
+                                                <h4 class="mb-4"><span class="triangle"></span> Stosswellentherapie</h4>
+                                                <p class="d-none d-lg-block">Eine etablierte Therapie zur Behandlung von Schmerzen im Bereich der Gelenke, Muskeln und insbesondere der Sehnen und Faszien. Durch Druckwellen werden Triggerpunkte, Faszien aber auch tiefergelegenes Gewebe erreicht und vermehrt durchblutet.</p>
+                                                <p class="text-center mb-0"><a data-bs-toggle="collapse" href="#therapien-stosswellen" class="collapsed" role="button" aria-expanded="false" aria-controls="therapien-stosswellen"><span></span> mehr</a></p>
+                                                <div class="collapse" id="therapien-stosswellen">
+                                                    <p class="d-lg-none mt-3 mt-lg-0">Eine etablierte Therapie zur Behandlung von Schmerzen im Bereich der Gelenke, Muskeln und insbesondere der Sehnen und Faszien. Durch Druckwellen werden Triggerpunkte, Faszien aber auch tiefergelegenes Gewebe erreicht und vermehrt durchblutet.</p>
+                                                    <p class="mt-lg-3"><strong>Einsatzgebiete:</strong></p>
+                                                    <ul class="list-bullet">
+                                                        <li>Kalkschulter</li>
+                                                        <li>Achillodynie</li>
+                                                        <li>Fersensporn</li>
+                                                        <li>Tendopathien der Hüfte</li>
+                                                    </ul>
+                                                    <p class="mb-0">Für weitere Anwendungsbereiche stehen wir zur Beratung gern zur Verfügung.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 mb-4">
+                                        <div class="card h-100 rounded-0 border-0 bg-white">
+                                            <img src="assets/images/therapien_gelenkinjektionen.jpg" class="w-100" alt="Gelenkinjektionen">
+                                            <div class="card-body p-4">
+                                                <h4 class="mb-4"><span class="triangle"></span> Gelenkinjektionen</h4>
+                                                <p class="d-none d-lg-block">Gelenkschmerzen, die nicht operativ behandelt werden sollen, können durch die Injektion von Hyaluronsäure, autologes Plasma (ACP Therapie) oder Kortison gelindert werden. Gern erklären wir Ihnen welche Therapie bei Ihnen bevorzugt angewendet werden sollte.</p>
+                                                <p class="text-center mb-0"><a data-bs-toggle="collapse" href="#therapien-gelenkinjektionen" class="collapsed" role="button" aria-expanded="false" aria-controls="therapien-gelenkinjektionen"><span></span> mehr</a></p>
+                                                <div class="collapse" id="therapien-gelenkinjektionen">
+                                                    <p class="d-lg-none mt-3 mt-lg-0">Gelenkschmerzen, die nicht operativ behandelt werden sollen, können durch die Injektion von Hyaluronsäure, autologes Plasma (ACP Therapie) oder Kortison gelindert werden. Gern erklären wir Ihnen welche Therapie bei Ihnen bevorzugt angewendet werden sollte.</p>
+                                                    <p class="mt-lg-3"><strong>Einsatzgebiete:</strong></p>
+                                                    <ul class="mb-0 list-bullet">
+                                                        <li>Schultergelenk</li>
+                                                        <li>Kniegelenk</li>
+                                                        <li>Hüftgelenk</li>
+                                                        <li>Handgelenk</li>
+                                                        <li>Sprunggelenk</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 mb-4">
+                                        <div class="card h-100 rounded-0 border-0 bg-white">
+                                            <img src="assets/images/therapien_prt.jpg" class="w-100" alt="PRT / Facettenblockade">
+                                            <div class="card-body p-4">
+                                                <h4 class="mb-4"><span class="triangle"></span> PRT / Facettenblockade</h4>
+                                                <p class="d-none d-lg-block">Chronische Rückenschmerzen mit oder ohne Ausstrahlung in die Beine benötigen im Rahmen einer Schmerztherapie (Medikamente, Physiotherapie) auch häufig die sogenannte Rückenspritze. Um die Effektivität dieser Spritze zu erhöhen, führen wir diese Therapie unter radiologischer Kontrolle durch.</p>
+                                                <p class="text-center mb-0"><a data-bs-toggle="collapse" href="#therapien-prt" class="collapsed" role="button" aria-expanded="false" aria-controls="therapien-prt"><span></span> mehr</a></p>
+                                                <div class="collapse" id="therapien-prt">
+                                                    <p class="d-lg-none mt-3 mt-lg-0">Chronische Rückenschmerzen mit oder ohne Ausstrahlung in die Beine benötigen im Rahmen einer Schmerztherapie (Medikamente, Physiotherapie) auch häufig die sogenannte Rückenspritze. Um die Effektivität dieser Spritze zu erhöhen, führen wir diese Therapie unter radiologischer Kontrolle durch.</p>
+                                                    <p class="mt-lg-3"><strong>Einsatzgebiete:</strong></p>
+                                                    <ul class="mb-0 list-bullet">
+                                                        <li>Bandscheibenvorfall</li>
+                                                        <li>Neuroforamenstenose</li>
+                                                        <li>Lumbale Facettenarthrose</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 mb-4">
+                                        <div class="card h-100 rounded-0 border-0 bg-white">
+                                            <img src="assets/images/therapien_akupunktur.jpg" class="w-100" alt="Akupunktur">
+                                            <div class="card-body p-4">
+                                                <h4 class="mb-4"><span class="triangle"></span> Akupunktur</h4>
+                                                <p class="d-none d-lg-block">In Zusammenarbeit mit der Praxisgemeinschaft wird die Akupunktur durch Frau Dr. Barbara Ruhm ausgeführt. Meine Kollegin besitzt ein A- und ein fortgeschrittenes B-Diplom. Ihre jahrelange Berufserfahrung wird Ihnen sehr helfen.</p>
+                                                <p class="text-center mb-0"><a data-bs-toggle="collapse" href="#therapien-akupunktur" class="collapsed" role="button" aria-expanded="false" aria-controls="therapien-akupunktur"><span></span> mehr</a></p>
+                                                <div class="collapse" id="therapien-akupunktur">
+                                                    <p class="d-lg-none mt-3 mt-lg-0">In Zusammenarbeit mit der Praxisgemeinschaft wird die Akupunktur durch Frau Dr. Barbara Ruhm ausgeführt. Meine Kollegin besitzt ein A- und ein fortgeschrittenes B-Diplom. Ihre jahrelange Berufserfahrung wird Ihnen sehr helfen.</p>
+                                                    <p class="mt-lg-3"><strong>Einsatzgebiete:</strong></p>
+                                                    <ul class="mb-0 list-bullet">
+                                                        <li>Rückenschmerzen</li>
+                                                        <li>Knieschmerzen</li>
+                                                        <li>Alle Schmerzsyndrome</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="therapien-operativ-tab-pane" role="tabpanel" aria-labelledby="therapien-operativ-tab" tabindex="1">
+                <div class="container d-lg-none mw-100 gx-0 bg-dark-gray">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12 text-center">
+                                        <a href="#therapien-operativ-tab-pane" class="d-block py-4" data-bs-toggle="tab" role="tab" aria-controls="therapien-operativ-tab-pane" aria-selected="false">Operative Therapien</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container mw-100 gx-0 pb-4 pb-lg-5 bg-gray">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="container pt-5">
+                                <div class="row">
+                                    <div class="col-12 col-lg-8 offset-lg-2 mt-0 mt-lg-4 mb-4 mb-lg-5">
+                                        <p class="mb-4">Nach der Ausreizung von konservativen Maßnahmen oder auch bei eindeutiger Befundlage ist die Anwendung der operativen Therapie zielführend. Als ambulant operierende Ärztin nutze ich die Räumlichkeiten des ambulanten OP der SRH Klinik Naumburg. Anästhesiologisch werde ich dabei durch das MVZ Naumburg und durch die Praxis Köthe/Bauerfeind Halle unterstützt. Im Vorfeld findet ein Aufklärungsgespräch in meiner Praxis statt. Hier erhalten Sie alle notwendigen Informationen und Verordnungen.</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6 mb-4">
+                                        <div class="card h-100 rounded-0 border-0 bg-white">
+                                            <img src="assets/images/therapien_schulter_arthroskopie.jpg" class="w-100" alt="Schulter-Arthroskopie">
+                                            <div class="card-body p-4">
+                                                <h4 class="mb-4"><span class="triangle"></span> Schulter-Arthroskopie</h4>
+                                                <p class="d-none d-lg-block">In Allgemeinnarkose und Seitenlage wird über einen kleinen Schnitt (ca. 3 mm) auf der Rückseite der Schulter, die Kamera in das Gelenk eingeführt und alle Befunde auf einem Monitor übertragen. Über einen zweiten und dritten Schnitt können verschiedene Eingriffe vorgenommen werden.</p>
+                                                <p class="text-center mb-0"><a data-bs-toggle="collapse" href="#therapien-schulter-arthroskopie" class="collapsed" role="button" aria-expanded="false" aria-controls="therapien-schulter-arthroskopie"><span></span> mehr</a></p>
+                                                <div class="collapse" id="therapien-schulter-arthroskopie">
+                                                    <p class="d-lg-none mt-3 mt-lg-0">In Allgemeinnarkose und Seitenlage wird über einen kleinen Schnitt (ca. 3 mm) auf der Rückseite der Schulter, die Kamera in das Gelenk eingeführt und alle Befunde auf einem Monitor übertragen. Über einen zweiten und dritten Schnitt können verschiedene Eingriffe vorgenommen werden.</p>
+                                                    <p class="mt-lg-3"><strong>Einsatzgebiete:</strong></p>
+                                                    <ul class="list-bullet">
+                                                        <li>Kalkschulter</li>
+                                                        <li>Schulterengpasssyndrom</li>
+                                                        <li>Tendinitis Lange Bizepssehne</li>
+                                                        <li>Tendopathien mit und ohne Ein/Abriße der Rotatorenmanschette</li>
+                                                    </ul>
+                                                    <p class="mb-0">Je nach Krankheitsbild findet eine individuelle Aufklärung statt.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 mb-4">
+                                        <div class="card h-100 rounded-0 border-0 bg-white">
+                                            <img src="assets/images/therapien_knie_arthroskopie.jpg" class="w-100" alt="Knie-Arthroskopie">
+                                            <div class="card-body p-4">
+                                                <h4 class="mb-4"><span class="triangle"></span> Knie-Arthroskopie</h4>
+                                                <p class="d-none d-lg-block">In Allgemein- oder auch in Rückenmarksnarkose findet über zwei kleine Schnitte die Operation statt. Mit Hilfe einer Kamera werden die Bilder auf einem Monitor abgespielt. Nach der OP wird kurzweilig eine Drainage eingelegt, die vor Entlassung gezogen wird.</p>
+                                                <p class="text-center mb-0"><a data-bs-toggle="collapse" href="#therapien-knie-arthroskopie" class="collapsed" role="button" aria-expanded="false" aria-controls="therapien-knie-arthroskopie"><span></span> mehr</a></p>
+                                                <div class="collapse" id="therapien-knie-arthroskopie">
+                                                    <p class="d-lg-none mt-3 mt-lg-0">In Allgemein- oder auch in Rückenmarksnarkose findet über zwei kleine Schnitte die Operation statt. Mit Hilfe einer Kamera werden die Bilder auf einem Monitor abgespielt. Nach der OP wird kurzweilig eine Drainage eingelegt, die vor Entlassung gezogen wird.</p>
+                                                    <p class="mt-lg-3"><strong>Einsatzgebiete:</strong></p>
+                                                    <ul class="list-bullet">
+                                                        <li>Innenmeniskuläsion</li>
+                                                        <li>Außenmeniskusläsion</li>
+                                                        <li>Plicasyndrom</li>
+                                                        <li>Chondropathie</li>
+                                                        <li>Bänderverletzungen</li>
+                                                        <li>Ganglien</li>
+                                                        <li>Freie Gelenkkörper</li>
+                                                    </ul>
+                                                    <p class="mb-0">Je nach Krankheitsbild findet eine individuelle Aufklärung statt.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 mb-4">
+                                        <div class="card h-100 rounded-0 border-0 bg-white">
+                                            <img src="assets/images/therapien_nukleoplastie.jpg" class="w-100" alt="Nukleoplastie / Nukleotomie">
+                                            <div class="card-body p-4">
+                                                <h4 class="mb-4"><span class="triangle"></span> Nukleoplastie / Nukleotomie</h4>
+                                                <p class="d-none d-lg-block">Dieses Verfahren an der Wirbelsäule dient zur Volumenreduktion eines Bandscheibenvorfalls. Dazu wird eine Elektrode unter Röntgenkontrolle in die betroffene Bandscheibe eingeführt. Dieses minimalinvasives Verfahren wird, noch bevor offen oder auch mikrochirurgisch operiert wird, angewandt.</p>
+                                                <p class="text-center mb-0"><a data-bs-toggle="collapse" href="#therapien-nukleoplastie" class="collapsed" role="button" aria-expanded="false" aria-controls="therapien-nukleoplastie"><span></span> mehr</a></p>
+                                                <div class="collapse" id="therapien-nukleoplastie">
+                                                    <p class="d-lg-none mt-3 mt-lg-0">Dieses Verfahren an der Wirbelsäule dient zur Volumenreduktion eines Bandscheibenvorfalls. Dazu wird eine Elektrode unter Röntgenkontrolle in die betroffene Bandscheibe eingeführt. Dieses minimalinvasives Verfahren wird, noch bevor offen oder auch mikrochirurgisch operiert wird, angewandt.</p>
+                                                    <p class="mt-lg-3"><strong>Einsatzgebiete:</strong></p>
+                                                    <ul class="list-bullet">
+                                                        <li>Lumbaler Bandscheibenvorfall</li>
+                                                        <li>Lumbale Bandscheibenvorwölbung</li>
+                                                    </ul>
+                                                    <p class="mb-0">Je nach Lokalisation und Bildgebung erfolgte eine ausführliche Aufklärung zur <a href="https://www.ventracare.com/" target="_blank">Therapie</a>.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 mb-4">
+                                        <div class="card h-100 rounded-0 border-0 bg-white">
+                                            <img src="assets/images/therapien_hand_fuss.jpg" class="w-100" alt="OP an Hand und Fuss">
+                                            <div class="card-body p-4">
+                                                <h4 class="mb-4"><span class="triangle"></span> OP an Hand und Fuss</h4>
+                                                <p class="d-none d-lg-block">Schmerzhafte Missempfindungen oder chronische Entzündungen der Sehnen an Hand und Finger sowie Fußdeformierungen mit schmerzenden Zehenstellungen können oft durch kleine operative Eingriffe behoben werden. Nach entsprechender Diagnostik wie Röntgen oder auch neurologische Messungen kann eine ambulante Operation erfolgen.</p>
+                                                <p class="text-center mb-0"><a data-bs-toggle="collapse" href="#therapien-hand-fuss" class="collapsed" role="button" aria-expanded="false" aria-controls="therapien-hand-fuss"><span></span> mehr</a></p>
+                                                <div class="collapse" id="therapien-hand-fuss">
+                                                    <p class="d-lg-none mt-3 mt-lg-0">Schmerzhafte Missempfindungen oder chronische Entzündungen der Sehnen an Hand und Finger sowie Fußdeformierungen mit schmerzenden Zehenstellungen können oft durch kleine operative Eingriffe behoben werden. Nach entsprechender Diagnostik wie Röntgen oder auch neurologische Messungen kann eine ambulante Operation erfolgen.</p>
+                                                    <p class="mt-lg-3"><strong>Einsatzgebiete:</strong></p>
+                                                    <ul class="list-bullet">
+                                                        <li>Hallux valgus et rigidus</li>
+                                                        <li>Krallenzehen, Hammerzehen</li>
+                                                        <li>Karpaltunnelsyndrom</li>
+                                                        <li>Tendovaginitis der Fingermuskulatur</li>
+                                                        <li>Ringbandspaltung</li>
+                                                    </ul>
+                                                    <p class="mb-0">Umfangreichere Operationen an Hand und Fuß werden an entsprechende Spezialisten in Kliniken und Praxen der Umgebung weitergeleitet.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="team" class="pt-5">
+        <div class="container">
+            <div class="row pb-5">
+                <div class="col">
+                    <h2>Team</h2>
+                    <h3>Einer für alle –<br>alle für Sie</h3>
+                </div>
+            </div>
+            <div class="row d-flex g-0">
+                <div class="col-lg-6">
+                    <img src="assets/images/andrea_kretschmer.jpg" class="d-block w-100" alt="">
+                </div>
+                <div class="col-lg-6 px-lg-4 p-lg-0 pt-4 pt-lg-0">
+                    <h4>Dr. Med. Andrea Kretschmer</h4>
+                    <p class="mb-4">Fachärztin für Orthopädie und Unfallchirurgie</p>
+                    <ul>
+                        <li class="mb-4">
+                            Geboren 1977 in Dresden
+                        </li>
+                        <li>
+                            <strong>Ausbildung zur Physiotherapeutin</strong><br>
+                            an der Europäischen Schule für Physiotherapie in Kreischa
+                        </li>
+                        <li class="mb-4">
+                            <strong>Studium der Humanmedizin</strong><br>
+                            an der Carl-Gustav Carus Universität in Dresden
+                        </li>
+                        <li class="mb-4">
+                            <strong>Facharztausbildung in der Abteilung für:</strong>
+                            <ul>
+                                <li>Wirbelsäulenchirurgie in Bad Berka unter Prof. Dr. H. Böhm</li>
+                                <li>Orthopädie/Unfallchirurgie in Bad Berka unter Prof. Dr. O. Kilian</li>
+                                <li>Orthopädie/Unfallchirurgie in Naumburg unter Dr. W. Marquardt</li>
+                            </ul>
+                        </li>
+                        <li class="mb-4">
+                            <strong>Dissertation:</strong><br>
+                            <span class="fst-italic">»Klinische und radiologische 1 Jahresergebnisse eine minimal-invasiven Fusionsverfahren (EMAP-LIF) im Vergleich zur herkömmlichen posterolumbalen interkorporellen Fusion (PLIF) – eine prospektive Studie«</span><br>
+                            unter Prof. Dr. Olaf Kilian und Prof. Dr. H. Böhm
+                        </li>
+                        <li class="mb-4">
+                            <strong>Mitglied in:</strong><br>
+                            <ul>
+                                <li>BVOU – Berufsverband für Orthopädie und Unfallchirurgie e. V.</li>
+                                <li>DAF – Deutsche Assoziation für Fußchirurgie</li>
+                                <li>AGA – Gesellschaft für Arthroskopie und Gelenkchirurgie</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row d-flex d-lg-none">
+                <div class="col-12">
+                    <div id="carousel-team" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carousel-team" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carousel-team" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carousel-team" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carousel-team" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item text-center active">
+                                <img src="assets/images/aline_schultz.jpg" width="220" height="220" alt="Aline Schultz">
+                                <h4 class="mt-3">Aline Schultz</h4>
+                                <p>Medizinische Fachangestellte</p>
+                            </div>
+                            <div class="carousel-item text-center">
+                                <img src="assets/images/annett_haedrich.jpg" width="220" height="220" alt="Annett Hädrich">
+                                <h4 class="mt-3">Annett Hädrich</h4>
+                                <p>Medizinische Fachangestellte</p>
+                            </div>
+                            <div class="carousel-item text-center">
+                                <img src="assets/images/anke_mannschatz.jpg" width="220" height="220" alt="Anke Mannschatz">
+                                <h4 class="mt-3">Anke Mannschatz</h4>
+                                <p>Medizinische Fachangestellte</p>
+                            </div>
+                            <div class="carousel-item text-center">
+                                <img src="assets/images/irene_springer.jpg" width="220" height="220" alt="Irene Springer">
+                                <h4 class="mt-3">Irene Springer</h4>
+                                <p>Medizinische Fachangestellte</p>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-team" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel-team" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-none d-lg-flex">
+                <div class="col-lg-3 mt-5 text-center">
+                    <img src="assets/images/aline_schultz.jpg" width="220" height="220" alt="Alina Schultz">
+                    <h4 class="mt-3">Alina Schultz</h4>
+                    <p>Medizinische Fachangestellte</p>
+                </div>
+                <div class="col-lg-3 mt-5 text-center">
+                    <img src="assets/images/annett_haedrich.jpg" width="220" height="220" alt="Anett Hädrich">
+                    <h4 class="mt-3">Anett Hädrich</h4>
+                    <p>Medizinische Fachangestellte</p>
+                </div>
+                <div class="col-lg-3 mt-5 text-center">
+                    <img src="assets/images/anke_mannschatz.jpg" width="220" height="220" alt="Anke Mannschatz">
+                    <h4 class="mt-3">Anke Mannschatz</h4>
+                    <p>Medizinische Fachangestellte</p>
+                </div>
+                <div class="col-lg-3 mt-5 text-center">
+                    <img src="assets/images/irene_springer.jpg" width="220" height="220" alt="Irene Springer">
+                    <h4 class="mt-3">Irene Springer</h4>
+                    <p>Medizinische Fachangestellte</p>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-6 offset-lg-3 mt-4 text-center">
+                    <p class="fs-6">Unser freundliches und erfahrenes Praxisteam sorgt für einen reibungslosen Praxisablauf. Für Fragen und Wünsche haben wir stets ein offenes Ohr. Sprechen Sie uns an – wir helfen gerne weiter.</p>
+                </div>
+                <div class="col-lg-6 offset-lg-3 mt-4">
+                    <div class="d-flex pb-5">
+                        <a class="btn btn-primary w-50 me-2 " href="tel:+493445200068">Anrufen</a>
+                        <a class="btn btn-primary w-50 ms-2" href="mailto:praxis@ortho-kretschmer.de">E-Mail</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="praxis" class="pt-2 pt-lg-5">
+        <div class="container">
+            <div class="row pb-5">
+                <div class="col">
+                    <h2>Praxis</h2>
+                    <h3>Einblicke in<br>unsere Räumlichkeiten</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-8 offset-lg-2">
+                    <div id="carousel-praxis" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators d-none">
+                            <button type="button" data-bs-target="#carousel-praxis" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/images/ak_praxis_01.jpg" width="2100" height="1240" class="d-block w-100 mw-100 h-auto" alt="">
+                            </div>
+                        </div>
+                         <button class="carousel-control-prev d-none" type="button" data-bs-target="#carousel-praxis" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next d-none" type="button" data-bs-target="#carousel-praxis" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="kontakt" class="mt-5">
+        <div class="container mw-100 gx-0 pb-3 bg-gray">
+            <div class="row">
+                <div class="col-12">
+                    <div class="container pt-5">
+                        <div class="row">
+                            <div class="col-md-6 d-flex flex-column justify-content-center mb-4">
+                                <h2>Kontakt</h2>
+                                <h3>Im Herzen<br>von Naumburg</h3>
+                                <p class="mt-4 mb-5 w-75">
+                                    Sie finden unsere Praxis in der Innenstadt von Naumburg unweit vom Markt entfernt.
+                                    In unmittelbarer Nähe sind ausreichend Parkmöglichkeiten vorhanden.
+                                    (Parkplätze: Marienmauer und Vogelwiese)
+                                </p>
+                                <p>
+                                    <a href="https://goo.gl/maps/Drgm4eLLGwFGY9nEA" class="d-inline-block link-primary" target="_blank"><span class="triangle"></span> Zur Karte</a>
+                                </p>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <picture>
+                                    <source media="(min-width: 992px)" srcset="assets/images/ak_kontakt_map.svg">
+                                    <source srcset="assets/images/ak_kontakt_map_sm.svg">
+                                    <img src="assets/images/ak_kontakt_map_sm.svg" class="map w-100 mw-100" alt="Karte">
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 mb-4">
+                                <div class="card rounded-0 border-0 py-4 h-100 bg-white text-center">
+                                    <a href="https://goo.gl/maps/Drgm4eLLGwFGY9nEA" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 60 60" xml:space="preserve">
+                                             <g>
+                                                <g transform="translate(0 0)">
+                                                    <circle style="fill: currentColor;" cx="30" cy="30" r="30"/>
+                                                </g>
+                                            </g>
+                                            <g transform="translate(19.279 15.091)">
+                                                <g>
+                                                    <g transform="translate(0 0)">
+                                                        <g transform="translate(0.566 0.566)">
+                                                            <path style="fill: none; stroke: #ffffff; stroke-width:1.5;" d="M20.6,10.3C20.6,4.6,16,0,10.3,0l0,0C4.6,0,0,4.6,0,10.3l0,0C0,18,10.3,29.2,10.3,29.2 S20.6,18.1,20.6,10.3z M6.9,10.3c0-1.9,1.5-3.4,3.4-3.4l0,0c1.9,0,3.4,1.5,3.4,3.4l0,0c0,1.9-1.5,3.4-3.4,3.4 C8.4,13.8,6.9,12.2,6.9,10.3L6.9,10.3z"/>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </a>
+                                    <p class="mt-4 mb-0">
+                                        Jakobsstraße 5-6<br>06618 Naumburg (Saale)
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="card rounded-0 border-0 py-4 h-100 bg-white text-center">
+                                    <a href="tel:+493445200068">
+                                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 60 60" xml:space="preserve">
+                                            <g>
+                                                <g transform="translate(0 0)">
+                                                    <circle style="fill: currentColor;" cx="30" cy="30" r="30"/>
+                                                </g>
+                                            </g>
+                                            <path style="fill: none; stroke: #ffffff; stroke-width: 1.5;" d="M40.6,36.3l-2.3,3.8c-0.1,0.1-0.3,0.3-0.4,0.3c-0.7,0.1-1.6,0.1-2.3,0c-3.4-0.4-7.1-2.7-10.3-5.7l0,0 c-3-3-5.3-6.7-5.8-10.1c-0.1-0.7-0.1-1.6,0-2.3c0-0.1,0.1-0.3,0.3-0.4l3.8-2.3c0.3-0.1,0.6-0.1,0.7,0.1l3.8,5.4l0,0 c0.1,0.1,0.1,0.6,0,0.7l-2.3,2.4c0.6,1,1.4,2.1,2.6,3.3l0,0c1.1,1.1,2.3,2,3.3,2.6l2.4-2.3l0,0c0.1-0.1,0.4-0.1,0.7,0l5.4,3.7 C40.6,35.7,40.7,36,40.6,36.3L40.6,36.3z"/>
+                                        </svg>
+                                    </a>
+                                    <p class="mt-4 mb-0">
+                                        <em class="text-primary">T</em> 03445 200068<br>
+                                        <em class="text-primary">F</em> 03445 200070
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="card rounded-0 border-0 py-4 h-100 bg-white text-center">
+                                    <a href="mailto:praxis@ortho-kretschmer.de">
+                                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 60 60" xml:space="preserve">
+                                            <g>
+                                                <g transform="translate(0 0)">
+                                                    <circle style="fill: currentColor;" cx="30" cy="30" r="30"/>
+                                                </g>
+                                            </g>
+                                            <g transform="translate(17.212 21.104)">
+                                                <g>
+                                                    <g>
+                                                        <path style="fill:none; stroke: #ffffff; stroke-width:1.5;" d="M0.5,17.2h24.7V0.5H0.5V17.2z"/>
+                                                        <g transform="translate(0.466 0.356)">
+                                                            <path style="fill:none; stroke: #ffffff; stroke-width:1.5;" d="M0,0l12,10.9l0.3,0.3l0.3-0.3L24.8,0"/>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </a>
+                                    <p class="mt-4 mb-0 h-100 d-flex align-items-center justify-content-center">praxis@ortho-kretschmer.de</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+    </section>
+</article>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-6 d-none d-lg-block">
+                <p class="my-0">&copy; Dr. med. Andrea Kretschmer</p>
+            </div>
+            <div class="col-12 col-lg-6 text-center text-lg-end">
+                <p class="my-0"><a href="impressum.html">Impressum / Datenschutz</a><br></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
