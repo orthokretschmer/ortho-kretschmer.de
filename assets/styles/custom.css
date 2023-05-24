@@ -76,6 +76,16 @@ a:hover {
     color: #4f535d;
 }
 
+a.border-bottom {
+    border-bottom: 1px solid #ed726a !important;
+}
+
+a.border-bottom:active,
+a.border-bottom:focus,
+a.border-bottom:hover {
+    border-bottom: 1px solid #d35a52 !important;
+}
+
 a.link-primary {
     color: #ed726a;
     text-transform: uppercase;
@@ -225,6 +235,10 @@ ul.list-bullet > li::before {
     border-radius: 50%;
     background-color: #ed726a;
     content: "";
+}
+
+.card-body {
+    color: #4f535d;
 }
 
 .text-primary {
@@ -806,7 +820,7 @@ nav.navbar .navbar-collapse {
     }
 }
 
-#therapien .card-body a {
+#therapien .card-body a[role="button"] {
     position: relative;
     margin-left: 30px;
     color: #ed726a;
@@ -816,13 +830,13 @@ nav.navbar .navbar-collapse {
     text-transform: uppercase;
 }
 
-#therapien .card-body a:active,
-#therapien .card-body a:focus,
-#therapien .card-body a:hover {
+#therapien .card-body a[role="button"]:active,
+#therapien .card-body a[role="button"]:focus,
+#therapien .card-body a[role="button"]:hover {
     color: #d35a52;
 }
 
-#therapien .card-body a span {
+#therapien .card-body a[role="button"] span {
     position: absolute;
     display: inline;
     top: -5px;
@@ -837,13 +851,13 @@ nav.navbar .navbar-collapse {
     transition: 0.5s left ease;
 }
 
-#therapien .card-body a:not(.collapsed) span {
+#therapien .card-body a[role="button"]:not(.collapsed) span {
     width: 30px;
     height: 30px;
     background-image: url(../images/therapien_minus.svg);
 }
 
-#therapien .card-body a:hover span {
+#therapien .card-body a[role="button"]:hover span {
     left: -45px;
 }
 
