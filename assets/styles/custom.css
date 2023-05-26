@@ -376,14 +376,14 @@ section::before {
     transition: top .15s .17s, transform .17s;
 }
 
-#hamburger:checked + label div {
+.navbar-light .navbar-toggler:not(.collapsed) #hamburger + label div {
     top: 10px;
     width: 30px;
     transform: rotate(135deg);
     transition: top .1s, transform .12s .1s;
 }
 
-#hamburger:checked + label div:nth-child(3) {
+.navbar-light .navbar-toggler:not(.collapsed) #hamburger + label div:nth-child(3) {
     transform: rotate(225deg);
     transition: top .1s, transform .17s .1s;
 }

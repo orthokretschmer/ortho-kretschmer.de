@@ -49,12 +49,12 @@
         </button>
         <div id="navbar-collapse" class="collapse navbar-collapse">
             <div class="navbar-nav navbar-nav-scroll">
-                <a class="nav-link d-flex align-self-center" href="#top">Home</a>
-                <a class="nav-link d-flex align-self-center" href="#diagnostik">Diagnostik</a>
-                <a class="nav-link d-flex align-self-center" href="#therapien">Therapien</a>
-                <a class="nav-link d-flex align-self-center" href="#team">Team</a>
-                <a class="nav-link d-flex align-self-center" href="#praxis">Praxis</a>
-                <a class="nav-link d-flex align-self-center" href="#kontakt">Kontakt</a>
+                <a class="nav-link d-flex align-self-center" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" href="#top">Home</a>
+                <a class="nav-link d-flex align-self-center" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" href="#diagnostik">Diagnostik</a>
+                <a class="nav-link d-flex align-self-center" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" href="#therapien">Therapien</a>
+                <a class="nav-link d-flex align-self-center" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" href="#team">Team</a>
+                <a class="nav-link d-flex align-self-center" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" href="#praxis">Praxis</a>
+                <a class="nav-link d-flex align-self-center" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" href="#kontakt">Kontakt</a>
             </div>
             <div class="d-lg-none d-flex w-100 p-4 bg-white">
                 <a class="btn btn-primary btn-sm w-50 me-2 " href="tel:+493445200068">Anrufen</a>
@@ -831,6 +831,18 @@
     </div>
 </footer>
 
+<script type="text/javascript" src="vendor/jquery/dist/jquery.min.js"></script>
 <script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<script>
+    jQuery(document).ready(function() {
+        jQuery('.nav-link').click(function (e) {
+            const divId = jQuery(this).attr('href');
+            jQuery('html, body').animate({
+                scrollTop: jQuery(divId).offset().top
+            }, 100);
+            e.preventDefault();
+        });
+    });
+</script>
 </body>
 </html>
