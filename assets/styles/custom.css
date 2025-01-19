@@ -659,6 +659,38 @@ nav.navbar .navbar-collapse {
     height: 55px;
 }
 
+/* Neu */
+#neu {
+    color: #ffffff;
+}
+
+#neu > .container {
+    margin-top: 9rem;
+}
+
+#neu .teaser {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-top: -150px;
+}
+
+@media only screen and (min-width: 992px) {
+    #neu > .container {
+        margin-top: 12rem;
+    }
+
+    #neu .teaser {
+        margin-top: -170px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #neu .teaser {
+       margin-top: -200px;
+    }
+}
+
 /* Diagnostik */
 #diagnostik .accordion-button {
     padding-left: 0.5rem;
