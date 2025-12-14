@@ -1042,3 +1042,36 @@ footer a:focus {
     text-transform: uppercase;
     letter-spacing: 1px;
 }
+
+/* Modal */
+#ruhm-modal .modal-content {
+    background-color: #aeceda;
+}
+
+#ruhm-modal .modal-header button {
+    font-size: 30px;
+}
+
+#ruhm-modal .modal-content .overlay {
+    position: absolute;
+    top: 50px;
+    padding: 10px 15px;
+    font-size: 14px;
+    line-height: 20px;
+    background-color: #ed726a;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#ruhm-modal .modal-body p {
+    font-size: 25px;
+    line-height: 40px;
+}
+
+@media only screen and (min-width: 992px) {
+    #ruhm-modal .modal-body p {
+        font-size: 40px;
+        line-height: 60px;
+    }
+}

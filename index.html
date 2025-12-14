@@ -899,6 +899,31 @@
     </div>
 </footer>
 
+<div id="ruhm-modal" class="modal modal-lg fade hidden" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content rounded-0">
+            <div class="modal-header border-0">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="overlay">
+                <div>Wichtige info</div>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 pt-5 content">
+                            <p>
+                                <strong>Liebe Patienten von Frau Dr. Ruhm,</strong><br />
+                                wir führen Ihre Behandlung gerne in unserer Praxis fort. Bitte melden Sie sich einfach bei uns.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <script type="text/javascript" src="vendor/jquery/dist/jquery.min.js"></script>
 <script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
 <script>
@@ -910,6 +935,15 @@
             }, 100);
             e.preventDefault();
         });
+
+        const date = new Date();
+        const endDate = new Date('2026-06-30');
+        if (date.getTime() < endDate.getTime()) {
+            if (!sessionStorage.getItem('ruhmModalShown')) {
+                jQuery('#ruhm-modal').modal('show');
+                sessionStorage.setItem('ruhmModalShown', '1');
+            }
+        }
     });
 </script>
 </body>
