@@ -951,45 +951,6 @@ nav.navbar .navbar-collapse {
     content: "";
 }
 
-/* Team – Lebenslauf mehr/weniger */
-#team a[role="button"] {
-    position: relative;
-    margin-left: 30px;
-    color: #ed726a;
-    font-size: 14px;
-    line-height: 30px;
-    letter-spacing: 0.1rem;
-    text-transform: uppercase;
-}
-
-#team a[role="button"]:active,
-#team a[role="button"]:focus,
-#team a[role="button"]:hover {
-    color: #d35a52;
-}
-
-#team a[role="button"] span {
-    position: absolute;
-    display: inline;
-    top: -5px;
-    left: -30px;
-    width: 30px;
-    height: 30px;
-    background-image: url('../images/therapien_plus.svg');
-    background-size: 10px 10px;
-    background-repeat: no-repeat;
-    background-position: center;
-    content: "";
-    transition: 0.5s left ease;
-}
-
-#team a[role="button"]:not(.collapsed) span {
-    background-image: url('../images/therapien_minus.svg');
-}
-
-#team a[role="button"]:hover span {
-    left: -45px;
-}
 
 /* Praxis */
 #praxis .carousel-control-prev {
